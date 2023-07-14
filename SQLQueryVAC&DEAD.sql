@@ -1,4 +1,5 @@
 --This data contains information about covid deaths and vaccinations in the period 2020-2021
+--In this file we'r putting in practice basic commands in Microsoft SQL Server 
 
 --We start just checking the info
 Select *
@@ -10,7 +11,7 @@ FROM nuevo..dead
 order by 1, 2
 
 --Let's make some questions 
---¿What was the ratio of deaths over total cases?
+--Â¿What was the ratio of deaths over total cases?
 --At the begining we couldn't do the operation because total_cases and total_deaths were nvarchar type, so we had to change them to numeric
 
 ALTER TABLE nuevo..dead
